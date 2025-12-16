@@ -1,3 +1,2 @@
 # AI Traffic Management System
-
-These is the AI traffic management system build with the help of YOLO for clear object detection
+Developed an AI Traffic Control System using YOLOv10 and OpenCV for real time vehicle detection, tracking, and dynamic signal control.
