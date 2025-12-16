@@ -17,7 +17,7 @@ WINDOW_SIZE = 1200  # final display size
 VEHICLE_CLASSES = [2, 3, 5, 7]  # car, motorcycle, bus, truck
 AMBULANCE_CLASS = 0
 
-# ---------------- INIT ----------------
+# ---------------- INIT ----------------------
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print("Running on:", device)
 
@@ -181,3 +181,4 @@ while True:
     if t_elapsed > t_max and not ambulance_detected:
         active_lane = (active_lane + 1) % num_lanes
         green_start_time = t_now
+
